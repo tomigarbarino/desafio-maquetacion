@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio maquetado</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="first-section">
+    <header class="header">
+        <img src="./images/image-3.svg" alt="" class="header__logo" />
+        <nav class="header__link">
+          <a href="" class="header__menu">quien soy</a>
+          <a href="" class="header__menu">servicios</a>
+          <a href="" class="header__menu">escribime</a>
+          <div class="responsive">
+            <div class="responsive__menu-responsive"></div>
+            <div class="responsive__menu-responsive"></div>
+            <div class="responsive__menu-responsive"></div>
+          </div>
+        </nav>
+      </header>
+      <h1 class="title">Bienvenidxs<br> a mi site</h1>
+      <div class="container">
+          <img src="./images/man.png" alt="Marce" class="container__marce">
+      </div>
+    </div>
+    <section class="section-2">
+        <h2 class="section-2__title">
+            Soy Tomas
+        </h2>
+        <p class="section-2__content">
+            Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere tristique. Phasellus placerat arcu elementum nisi ultrices cursus. Etiam sit amet aliquet lacus.
+        </p>
+        <div class="container">
+            <img src="./images/check-1.png" alt="check" class="section-2__img">
+        </div>
+    </section>
+    <section class="section-3">
+        <h2 class="section-3__title">Mis servicios</h2>
+        <div class="section-3__block-container">
+            <div class="section-3__block">
+                <img src="./images/desktop-1.svg" alt="desktop">
+                <h3>hago cosas</h3>
+                <p>Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam,
+                    sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere tristique.</p>
+            </div>
+            <div class="section-3__block">
+                <img src="./images/desktop-1.svg" alt="desktop">
+                <h3>hago cosas</h3>
+                <p>Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam,
+                    sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere tristique.</p>
+            </div>
+            <div class="section-3__block">
+                <img src="./images/desktop-1.svg" alt="desktop">
+                <h3>hago cosas</h3>
+                <p>Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam,
+                    sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere tristique.</p>
+            </div>
+        </div>
+    </section>
+    <section class="form">
+        <form action="/procesar-formulario" method="POST">
+            <h2 class="form__title">Escribime</h2>
+            <label for="nombre" class="form__item">NOMBRE</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email" class="form__item">EMAIL</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje" class="form__item">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <button type="submit" class="form__buttom">Enviar</button>
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="footer_logo_date">
+        <img src="./images/image-3.svg" alt="Logo de la empresa" class="logo">
+        <p class="footer__copy">&copy; 2023 tomas.</p>
+    </div>
+        <div class="footer__link">
+            <a href="https://www.linkedin.com/in/tomas-garbarino/" target="_blank" rel="noreferrer">
+                <div class="footer__link-item">
+                    <img src="./images/Linkedin.png" alt="LinkedIn" />
+                    <p>LinkedIn</p>
+                </div>
+            </a>
+            <a href="https://github.com/tomigarbarino" target="_blank" rel="noreferrer">
+                <div class="footer__link-item">
+                    <img src="./images/Github.png" alt="GitHub" />
+                    <p>GitHub</p>
+                </div>
+            </a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
