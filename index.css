@@ -296,8 +296,8 @@ form {
 
     .form__title {
         position: absolute;
-        top: 7%;
-        left: 40px;
+        top: 10%;
+        left: 210px;
         transform: translateY(-50%);
         font-size: 48px;
         font-family: Open Sans;
@@ -432,5 +432,8 @@ textarea {
     .footer__link,
     .footer__copy {
         order: unset;
+    }
+    .footer__link-item {
+        margin-bottom: 0px;
     }
 }
