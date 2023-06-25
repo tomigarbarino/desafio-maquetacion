@@ -173,6 +173,9 @@ body {
         width: 50%;
         object-fit: cover;
         margin-top: 88px;
+        width: 211px;
+height: 211px;
+flex-shrink: 0;
     }
 
     .section-2__title {
@@ -184,7 +187,8 @@ body {
     }
 
     .section-2__content {
-        width: 100%;
+        width: 48%;
+        margin-right: 468px;
 
     }
 
